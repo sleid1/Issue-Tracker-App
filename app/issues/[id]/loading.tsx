@@ -1,7 +1,9 @@
 import { Box, Card, Flex } from '@radix-ui/themes';
 
-import Skeleton from 'react-loading-skeleton';
-import 'react-loading-skeleton/dist/skeleton.css';
+// Changed with created component for Organized imports
+// import Skeleton from 'react-loading-skeleton';
+// import 'react-loading-skeleton/dist/skeleton.css';
+import { Skeleton } from '@/app/components';
 
 const LoadingIssueDetailPage = () => {
    return (
