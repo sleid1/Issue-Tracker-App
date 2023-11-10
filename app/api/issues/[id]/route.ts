@@ -26,5 +26,4 @@ export async function PATCH(
    });
 
    return NextResponse.json(updatedIssue);
-   console.log(updatedIssue);
 }
