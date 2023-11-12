@@ -8,6 +8,7 @@ export async function PATCH(
 ) {
    const body = await request.json();
    const validation = issueSchema.safeParse(body);
+
    if (!validation.success)
       return NextResponse.json(validation.error.format(), { status: 400 });
 
